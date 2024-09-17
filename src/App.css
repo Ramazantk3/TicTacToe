@@ -1,0 +1,58 @@
+img{
+  width: 10rem;
+  user-select: none;
+}
+h1{
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+button{
+  font-family: "Poppins";
+  font-size: 2rem;
+  color: white;
+  background-color: rgb(47, 0, 255);
+  margin: 2rem 0;
+  padding: 2rem 8rem;
+  border-radius: 15px;
+  border-color: rgb(90, 53, 255);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container{
+  width: 100%;
+  max-width: 56rem ;
+  margin: 3rem auto;
+  position: relative;
+}
+
+.headerReact{
+  color: #57ec1c;
+  font-size: 3rem;
+}
+
+
+.playArea{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: .7rem;
+  justify-content: center;
+}
+.square{
+  max-width: 17rem;
+  height: 14.5rem;
+  background-color: #060229;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winner-icon{
+  width: 2rem;
+}
